@@ -8,7 +8,7 @@ class PantallaInicial_0402 extends StatelessWidget {
     return Scaffold(
         appBar: AppBar(
           title: Text("Pantalla Inicial Rivas0402"),
-          backgroundColor: Colors.amber,
+          backgroundColor: Color(0xff25cdff),
         ),
         body: Center(
           child: Column(
