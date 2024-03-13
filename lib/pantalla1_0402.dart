@@ -7,20 +7,23 @@ class Pantalla1_0402 extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text("card p1  Rivas 0402"),
-        backgroundColor: Color(0xff17a6f8),
+        title: Text("Pantalla 1 Rivas 0402"),
+        backgroundColor: Color(0xfffe4646),
       ),
       body: Center(
-        child: Card(
-          color: Color(0xff1943ff),
-          shape:
-              RoundedRectangleBorder(borderRadius: BorderRadius.circular(30)),
-          child: Padding(
-              padding: EdgeInsets.all(16),
-              child: Text(
-                "Card Rivas",
-                style: TextStyle(fontSize: 20, color: Color(0xffffffff)),
-              )),
+        child: Center(
+          child: Container(
+            color: Color(0xffeaa103),
+            width: 300,
+            height: 300,
+            padding: EdgeInsets.all(32),
+            margin: EdgeInsets.symmetric(vertical: 16, horizontal: 32),
+            alignment: Alignment.center,
+            child: Text(
+              'Pantalla 1',
+              style: TextStyle(fontSize: 30),
+            ),
+          ),
         ),
       ),
     );

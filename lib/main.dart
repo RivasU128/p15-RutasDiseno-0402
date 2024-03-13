@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:rivas/pantalla3_0402.dart';
 import 'package:rivas/pantalla2_0402.dart';
 import 'package:rivas/pantalla1_0402.dart';
 import 'package:rivas/pantallainicial_0402.dart';
@@ -17,6 +18,7 @@ class MiApp0402 extends StatelessWidget {
         "/": (context) => PantallaInicial_0402(),
         "/pantalla1_0402": (context) => Pantalla1_0402(),
         "/pantalla2_0402": (context) => Pantalla2_0402(),
+        "/pantalla3_0402": (context) => Pantalla3_0402(),
       },
     );
   }

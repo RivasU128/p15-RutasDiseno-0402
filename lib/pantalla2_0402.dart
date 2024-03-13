@@ -8,23 +8,21 @@ class Pantalla2_0402 extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         title: Text("Pantalla 2 Rivas0402"),
-        backgroundColor: Color(0xff3d92ff),
+        backgroundColor: Color(0xfffe4242),
       ),
       body: Center(
         child: Container(
-          height: double.infinity,
-          width: double.infinity,
-          color: Color(0xff040fad),
-          child: Card(
-            color: Color(0xe611a6cb),
-            margin: EdgeInsets.all(32),
-            child: Padding(
-              padding: EdgeInsets.all(16),
-              child: Center(
-                  child: Text(
-                "Container",
-                style: TextStyle(fontSize: 30, color: Color(0xfff6f6f6)),
-              )),
+          color: Color(0xfff8ba10),
+          constraints: BoxConstraints(
+            minHeight: 100,
+            minWidth: 200,
+            maxHeight: 300,
+            maxWidth: 300,
+          ),
+          child: Text(
+            'Pantalla 2 0402',
+            style: TextStyle(
+              fontSize: 30,
             ),
           ),
         ),
